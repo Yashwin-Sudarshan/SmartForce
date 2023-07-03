@@ -38,31 +38,27 @@
     font-size: xx-large;
 }
 
-/* .nav-links {
-    text-decoration: none;
-    color: black;
-    align-items: center;
-    margin-top: 20px;
-} */
-
-/* .nav-links:hover {
-    color: #005F85;
-    transition-delay: 100ms;
-} */
-
 .platform-dropdown-menu, .company-dropdown-menu {
+    position: fixed;
     display: flex;
     flex-direction: column;
+    background-color: white;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    width: 150px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
     font-weight: bold;
+    z-index: 1;
 }
 
 .menu {
+    position: fixed;
     display: flex;
     flex-direction: column;
     text-align: center;
+    background-color: white;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    width: 50%;
+    z-index: 1;
 }

@@ -1,0 +1,267 @@
+.landing-page {
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-header-section-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #005F85;
+    width: 100%;
+    height: 900px;
+    margin-top: 20px;
+}
+
+.main-header-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 94%;
+    height: 89%;
+}
+
+.main-header-section-content {
+    position: absolute;
+    z-index: 1;
+}
+
+.main-header-section-content h1 {
+    font-weight: bolder;
+    font-size: 64px;
+    width: 50%;
+    padding-left: 60px;
+}
+
+.main-header-section-content h2 {
+    font-weight: 400;
+    font-size: 32px;
+    width: 50%;
+    padding-left: 60px;
+}
+
+.main-header-section-img {
+    width: 800px;
+    position: absolute;
+    right: 0;
+}
+
+.trusted-by-label-section {
+    width: 17%;
+    height: 0;
+    border-bottom: 100px solid #0046A4;
+    border-right: 100px solid transparent;
+    position: relative;
+    margin-top: -120px;
+  }
+  
+.trusted-by-label-section p {
+    color: white;
+    font-weight: 300;
+    padding-left: 80px;
+    padding-top: 25px;
+    font-size: 20px;
+}
+
+.organisations-list-section {
+    width: 100%;
+    height: 151px;
+    background-color: #0046A4;
+    overflow: hidden;
+}
+
+.marquee {
+    width: 100%;
+    white-space: nowrap;
+    animation: marquee 50s linear infinite;
+  }
+
+  .marquee ul {
+    display: inline-block;
+    animation: marquee-inner 50s linear infinite;
+  }
+  
+  .marquee li {
+    display: inline-block;
+    margin-right: 300px;
+  }
+
+  .marquee p {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  @keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+  
+  @keyframes marquee-inner {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-100%); }
+  }
+
+.overview {
+    text-align: center;
+}
+
+.overview h1 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 48px;
+}
+
+.client-review-section {
+    display: flex;
+    background-color: #0046A4;
+    height: 666px;
+    margin-top: 50px;
+}
+
+.client-review-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    width: 40%;
+    height: 583px;
+    max-width: 90%;
+    padding-left: 50px;
+    margin: auto;
+}
+
+.client-review-info h1 {
+    font-size: 48px;
+}
+
+.client-review-info p {
+    font-size: 36px;
+}
+
+.example-review {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: white;
+    height: 401px;
+    width: 771px;
+    max-width: 90%;
+    border-radius: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 50px;
+    margin-left: auto;
+}
+
+.example-review h2 {
+    font-size: 36px;
+    width: 95%;
+    padding-left: 20px;
+}
+
+.example-review h3 {
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+
+.example-review p {
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+@media (max-width: 1200px) {
+    
+    .main-header-section {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 94%;
+        height: 89%;
+        text-align: center;
+    }
+    
+    .main-header-section-content {
+        position: relative;
+        z-index: 0;
+    }
+    
+    .main-header-section-content h1 {
+        font-weight: bolder;
+        font-size: 32px;
+        width: 95%;
+        padding-left: 10px;
+    }
+
+    .main-header-section-content h2 {
+        font-weight: 400;
+        font-size: 18px;
+        width: 95%;
+        padding-left: 10px;
+    }
+    
+    .main-header-section-img {
+        width: 75%;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .trusted-by-label-section {
+        width: 17%;
+        height: 0;
+        border-bottom: 100px solid #0046A4;
+        border-right: 100px solid transparent;
+        position: absolute;
+        margin-top: -100px;
+    }
+      
+    .trusted-by-label-section p {
+        color: white;
+        font-weight: 300;
+        padding-left: 20px;
+        padding-top: 5px;
+        font-size: 14px;
+    }
+
+    .overview h1 {
+        font-size: 24px;
+    }
+
+    .client-review-section {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .client-review-info {
+        width: 80%;
+        padding-top: 50px;
+    }
+
+    .example-review {
+        margin-top: 100px;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .example-review h2 {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 1200px) {
+    .main-header-section-img {
+        width: 60%;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
