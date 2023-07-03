@@ -395,7 +395,7 @@ const LandingPage = () => {
                 backgroundColor: "#005F85",
                 color: "white",
                 height: isMobileScreen ? "50px" : "75px",
-                width: isMobileScreen ? "250px" : "300px",
+                width: isMobileScreen ? "200px" : "300px",
                 fontSize: isMobileScreen ? "18px" : "22px",
                 marginTop: "40px",
                 ":hover": {
