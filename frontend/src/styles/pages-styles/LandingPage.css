@@ -127,7 +127,7 @@
     justify-content: center;
     align-items: flex-start;
     color: white;
-    width: 40%;
+    width: 35%;
     height: 583px;
     max-width: 90%;
     padding-left: 50px;
@@ -244,6 +244,14 @@
         padding-top: 50px;
     }
 
+    .client-review-info h1 {
+        font-size: 36px;
+    }
+    
+    .client-review-info p {
+        font-size: 28px;
+    }
+
     .example-review {
         margin-top: 100px;
         margin-bottom: 30px;
@@ -263,5 +271,27 @@
         top: 35%;
         left: 50%;
         transform: translateX(-50%);
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1474px) {
+    .main-header-section-content h1 {
+        font-weight: bolder;
+        font-size: 48px;
+        width: 50%;
+        padding-left: 60px;
+    }
+    
+    .main-header-section-content h2 {
+        font-weight: 400;
+        font-size: 28px;
+        width: 50%;
+        padding-left: 60px;
+    }
+    
+    .main-header-section-img {
+        width: 600px;
+        position: absolute;
+        right: 0;
     }
 }
