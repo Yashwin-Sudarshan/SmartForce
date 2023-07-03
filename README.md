@@ -12,6 +12,7 @@ To run locally with **Docker**:
 2. Ensure you have Docker installed
 3. Ensure you are in the same directory as the makefile
 4. Run `make run`
+5. Open your browser to `localhost:5173`
 
 To run locally without Docker:
 
@@ -20,3 +21,4 @@ To run locally without Docker:
 3. Navigate to the `frontend` directory
 4. Run `npm install`
 5. Run `npm run dev`
+6. Open your browser to `localhost:5173`
